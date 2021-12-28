@@ -1,6 +1,748 @@
 <fable>
-	<page>
-  
+	<page background='PÁGINA(1).jpg'>   
+
+    <agent video='MSGPG1.mp4'
+      			x="0" 
+      			y="329" 
+      			width="200"      			
+      			height="200" />
+    
+    <agent img="careca.png" 
+            x="-150" 
+            y="-10" 
+            width="800" 
+            height="450"/>     
+    
+    
+    
+    <agent img='circle0.png'
+            x="363" 
+            y="335" 
+            width='125'
+            height='120'/>
+                        
+    <agent img="CABELO1.png" 
+            x="378" 
+            y="347" 
+            width='100'
+            height='100'
+            on-touch='_GOTO_PAGE:2'/>
+    
+    
+    
+    
+    <agent img='circle0.png'
+            x="363" 
+            y="215" 
+            width='125'
+            height='120'/>
+                        
+    <agent img="CABELO2.png" 
+            x="374" 
+            y="227" 
+            width='100'
+            height='100'
+            on-touch='_GOTO_PAGE:4'/>
+    
+    
+    
+    <agent img='circle0.png'
+            x="363" 
+            y="90" 
+            width='125'
+            height='120'/>
+                        
+    <agent img="CABELO3.png" 
+            x="378" 
+            y="109" 
+            width='90'
+            height='90'
+            on-touch='_GOTO_PAGE:6'/>
+    
+    
+    
+    
+    
+     
+    <agent img='circle0.png'
+            x="13" 
+            y="230" 
+            width='125'
+            height='120'/>
+                        
+    <agent img="CABELO4.png" 
+            x="25" 
+            y="248" 
+            width='100'
+            height='90'
+            on-touch='_GOTO_PAGE:8'/>
+    
+   
+    
+    
+      <agent img='circle0.png'
+            x="13" 
+            y="90" 
+            width='125'
+            height='120'/> 
+      <agent img="CABELO5.png" 
+            x="25" 
+            y="108" 
+            width='100'
+            height='90'
+            on-touch='_GOTO_PAGE:10'/>
     
   </page>
+  
+  
+  <page background='PÁGINA(2).jpg'>
+    <agent video='MSGPG2.mp4'
+      			x="299" 
+      			y="329" 
+      			width="200"      			
+      			height="200"/>
+
+
+    
+    <agent img="careca.png" 
+            x="-150" 
+            y="-10" 
+            width="800" 
+            height="450" 
+            drop-zone="restore"> 
+      <restore img="morena1.png" 
+                x="40" 
+                y="0"
+                width="400" 
+                height="450"/></agent>
+    
+    
+    <agent img="CABELO1.png" 
+            x="350" 
+            y="290" 
+            width="150" 
+            height="150" 
+            draggable="true" 
+            on-drop="restore" 
+            on-zone="lived" 
+            on-trigger="lived">
+      <lived x="-50"/></agent> 
+
+    
+    
+    <agent img='yellowbut.png'
+            x="0" 
+            y="328" 
+            width='129'
+            height='74'
+            on-touch='_GOTO_PAGE:3'/>
+    <agent img='redbut.png'
+            x="0" 
+            y="279" 
+            width='129'
+            height='74'
+            on-touch='_GOTO_PAGE:4'/>	
+    <agent img='backbut.png'
+            x="0" 
+            y="380" 
+            width='129'
+            height='74'
+            on-touch='_GOTO_PAGE:1'/> 
+    <agent img='readybut.png'
+      			x="0" 
+            y="230" 
+            width='129'
+            height='74'/>
+    
+  </page>
+  
+  
+  <page background='PÁGINA(3).jpg'>
+    
+    <agent img='loira1.png'
+            x="40" 
+            y="0"
+            width="400" 
+            height="450"/>
+
+    
+    
+    <agent img='blackbut.png'
+            x="0" 
+            y="328" 
+            width='129'
+            height='74'
+            on-touch='_GOTO_PAGE:2'/>  
+    <agent img='redbut.png'
+            x="0" 
+            y="279" 
+            width='129'
+            height='74'
+            on-touch='_GOTO_PAGE:4'/>  
+    <agent img='backbut.png'
+            x="0" 
+            y="380" 
+            width='129'
+            height='74'
+            on-touch='_GOTO_PAGE:1'/> 
+    <agent img='readybut.png'
+      			x="0" 
+            y="230" 
+            width='129'
+            height='74'/>
+      
+	</page>
+  
+  
+  <page background='NOVAPÁGINA(4)-RUIVA1.jpg'>
+    
+    <agent img='ruiva1.png'
+            x="40" 
+            y="-2"
+            width="400" 
+            height="450"/>
+
+    <agent img='blackbut.png'
+            x="0" 
+            y="328" 
+            width='129'
+            height='74'
+            on-touch='_GOTO_PAGE:2'/>      
+    <agent img='yellowbut.png'
+            x="0" 
+            y="279"  
+            width='129'
+            height='74'
+            on-touch='_GOTO_PAGE:3'/>
+    <agent img='backbut.png'
+            x="0" 
+            y="377" 
+            width='129'
+            height='74'
+            on-touch='_GOTO_PAGE:1'/>    
+    <agent img='readybut.png'
+      			x="0" 
+            y="230" 
+            width='129'
+            height='74'/>
+  </page>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  <page background='PÁGINA(5).jpg'>
+    
+    <agent text='CLIQUE E ARRASTE O CABELO ATÉ ELA'
+      			x="120" 
+      			y="470" 
+      			width="300"
+      			font-size='16'
+      			color='midnightblue' ></agent>
+    
+    <agent text='RETORNAR AO INÍCIO'
+      			x="15" 
+      			y="440" 
+      			width="300"
+      			font-size='10'
+      			color='midnightblue'></agent>
+    <agent img='readybut.png'
+      			x="0" 
+            y="0" 
+            width='129'
+            height='74'/>
+
+    
+    <agent text='ALTERAR PARA LOIRO'
+      			x='13'
+      			y="329" 
+      			width="300"
+      			font-size='10'
+      			color='midnightblue' ></agent>
+    
+    
+    <agent img="careca.png" 
+            x="-150" 
+            y="-10" 
+            width="800" 
+            height="450" 
+            drop-zone="restore"> 
+      <restore img="morena2.png" 
+                x="60" 
+                y="0"
+                width="400" 
+                height="470"/></agent>
+    
+    <agent img="CABELO2.png" 
+            x="350" 
+            y="200" 
+            width="150" 
+            height="150" 
+            draggable="true" 
+            on-drop="restore" 
+            on-zone="lived" 
+            on-trigger="lived">
+      <lived x="-50"/></agent> 
+
+   
+    <agent img='yellowbut.png'
+            x="0" 
+            y="328" 
+            width='129'
+            height='74'
+            on-touch='_GOTO_PAGE:5'/>
+  	
+    <agent img='backbut.png'
+            x="0" 
+            y="380" 
+            width='129'
+            height='74'
+            on-touch='_GOTO_PAGE:1'/>  
+
+    
+  </page>
+  
+  
+  <page background='PÁGINA(6).jpg'>
+ 
+    <agent text='RETORNAR AO INÍCIO'
+      			x="15" 
+      			y="440" 
+      			width="300"
+      			font-size='10'
+      			color='midnightblue'></agent>
+    <agent img='readybut.png'
+      			x="0" 
+            y="0" 
+            width='129'
+            height='74'/>
+
+    
+    <agent img='loira2.png'
+            x="55" 
+            y="0"
+            width="400" 
+            height="470"/>
+
+    <agent img='blackbut.png'
+            x="0" 
+            y="328" 
+            width='129'
+            height='74'
+            on-touch='restore'>
+      <restore img="morena2.png" 
+        				x="57" 
+      					y="0"
+        				width="400" 
+       					height="473"/></agent>  
+    
+    <agent img='backbut.png'
+            x="0" 
+            y="380" 
+            width='129'
+            height='74'
+            on-touch='_GOTO_PAGE:1'/>  
+
+  </page>
+  
+  
+  <page background='NOVAPÁGINA(7)-RUIVA2.jpg'>
+    <agent text='não feita'
+      x='0'
+      y='0'
+      width='10'
+      height='10'/>
+  </page>
+  
+  
+  
+  <page background='PÁGINA(8).jpg'>
+    
+    <agent text='CLIQUE E ARRASTE O CABELO ATÉ ELA'
+      			x="120" 
+      			y="470" 
+      			width="300"
+      			font-size='16'
+      			color='midnightblue' ></agent>
+    
+    <agent text='RETORNAR AO INÍCIO'
+      			x="15" 
+      			y="440" 
+      			width="300"
+      			font-size='10'
+      			color='midnightblue'></agent>
+    <agent img='readybut.png'
+      			x="0" 
+            y="0" 
+            width='129'
+            height='74'/>
+    
+    <agent text='ALTERAR PARA LOIRO'
+      			x='13'
+      			y="329" 
+      			width="300"
+      			font-size='10'
+      			color='midnightblue' ></agent>
+    
+    
+    <agent img="careca.png" 
+            x="-150" 
+            y="-10" 
+            width="800" 
+            height="450" 
+            drop-zone="restore"> 
+      <restore img="morena3.png" 
+                x="20" 
+                y="0"
+                width="400" 
+                height="460"/></agent>
+    
+    <agent img="CABELO3.png" 
+            x="350" 
+            y="80" 
+            width="150" 
+            height="150" 
+            draggable="true" 
+            on-drop="restore" 
+            on-zone="lived" 
+            on-trigger="lived">
+      <lived x="-50"/></agent> 
+
+    
+    
+    <agent img='yellowbut.png'
+            x="0" 
+            y="328" 
+            width='129'
+            height='74'
+            on-touch='_GOTO_PAGE:7'/>
+  	
+    <agent img='backbut.png'
+            x="0" 
+            y="380" 
+            width='129'
+            height='74'
+            on-touch='_GOTO_PAGE:1'/>  
+    
+  </page>
+  
+  
+  <page background='PÁGINA(9).jpg'>
+      
+  	<agent text='RETORNAR AO INÍCIO'
+      			x="15" 
+      			y="440" 
+      			width="300"
+      			font-size='10'
+      			color='midnightblue'></agent>
+    <agent img='readybut.png'
+      			x="0" 
+            y="0" 
+            width='129'
+            height='74'/>
+
+    
+    <agent img='loira3.png'
+            x="40" 
+            y="0"
+            width="400" 
+            height="450"/>
+
+    <agent img='blackbut.png'
+            x="0" 
+            y="328" 
+            width='129'
+            height='74'
+            on-touch='restore'>
+      <restore img="morena3.png" 
+        				x="10" 
+      					y="-10"
+        				width="410" 
+       					height="475"/></agent>  
+    
+    <agent img='backbut.png'
+            x="0" 
+            y="380" 
+            width='129'
+            height='74'
+            on-touch='_GOTO_PAGE:1'/>  
+      
+
+  </page>
+  
+  <page background='NOVAPÁGINA(10)-RUIVA3.jpg'>
+    <agent text='não feita'
+      x='0'
+      y='0'
+      width='10'
+      height='10'/>
+  </page>
+  
+ 
+  
+  <page background='PÁGINA(11).jpg'>
+    
+    <agent text='CLIQUE E ARRASTE O CABELO ATÉ ELA'
+      			x="120" 
+      			y="470" 
+      			width="300"
+      			font-size='16'
+      			color='midnightblue' ></agent>
+    
+    <agent text='RETORNAR AO INÍCIO'
+      			x="15" 
+      			y="440" 
+      			width="300"
+      			font-size='10'
+      			color='midnightblue'></agent>
+    <agent img='readybut.png'
+      			x="0" 
+            y="0" 
+            width='129'
+            height='74'/>
+    
+    <agent text='ALTERAR PARA LOIRO'
+      			x='13'
+      			y="329" 
+      			width="300"
+      			font-size='10'
+      			color='midnightblue' ></agent>
+    
+    
+    <agent img="careca.png" 
+            x="-150" 
+            y="-10" 
+            width="800" 
+            height="450" 
+            drop-zone="restore"> 
+    	<restore img="morena4.png" 
+                x="40" 
+                y="-20"
+                width="400" 
+                height="480"/></agent>
+    
+    <agent img="CABELO4.png" 
+            x="350" 
+            y="320" 
+            width="150" 
+            height="150" 
+            draggable="true" 
+            on-drop="restore" 
+            on-zone="lived" 
+            on-trigger="lived">
+      <lived x="-50"/></agent> 
+
+    
+    
+    <agent img='yellowbut.png'
+            x="0" 
+            y="328" 
+            width='129'
+            height='74'
+            on-touch='_GOTO_PAGE:9'/>
+  	
+    <agent img='backbut.png'
+            x="0" 
+            y="380" 
+            width='129'
+            height='74'
+            on-touch='_GOTO_PAGE:1'/>  
+  
+  </page>
+  
+  
+  <page background='PÁGINA(12).jpg'>
+      
+      <agent text='RETORNAR AO INÍCIO'
+      			x="15" 
+      			y="440" 
+      			width="300"
+      			font-size='10'
+      			color='midnightblue'></agent>
+    <agent img='readybut.png'
+      			x="0" 
+            y="0" 
+            width='129'
+            height='74'/>
+
+    
+    <agent img='loira4.png'
+            x="90" 
+            y="-46"
+            width="329" 
+            height="509"/>
+
+    <agent img='blackbut.png'
+            x="0" 
+            y="328" 
+            width='129'
+            height='74'
+            on-touch='restore'>
+      <restore img="morena4.png" 
+        				x="15" 
+      					y="-35"
+        				width="455" 
+       					height="509"/></agent>  
+    
+    <agent img='backbut.png'
+            x="0" 
+            y="380" 
+            width='129'
+            height='74'
+            on-touch='_GOTO_PAGE:1'/>  
+
+  
+  </page>
+  
+  
+  <page background='NOVAPÁGINA(13)-RUIVA4.jpg'>  			<agent text='não feita'
+      x='0'
+      y='0'
+      width='10'
+      height='10'/>
+  </page>
+  
+  
+  
+  <page background='PÁGINA(14).jpg'>
+    
+      <agent text='CLIQUE E ARRASTE O CABELO ATÉ ELA'
+      			x="120" 
+      			y="470" 
+      			width="300"
+      			font-size='16'
+      			color='midnightblue' ></agent>
+    
+    <agent text='RETORNAR AO INÍCIO'
+      			x="15" 
+      			y="440" 
+      			width="300"
+      			font-size='10'
+      			color='midnightblue'></agent>
+    <agent img='readybut.png'
+      			x="0" 
+            y="0" 
+            width='129'
+            height='74'/>
+    
+    <agent text='ALTERAR PARA LOIRO'
+      			x='13'
+      			y="329" 
+      			width="300"
+      			font-size='10'
+      			color='midnightblue' ></agent>
+    
+    
+    <agent img="careca.png" 
+            x="-150" 
+            y="-10" 
+            width="800" 
+            height="450" 
+            drop-zone="restore"> 
+      <restore img="morena5.png" 
+                x="40" 
+                y="0"
+                width="400" 
+                height="497"/></agent>
+    
+    <agent img="CABELO5.png" 
+            x="350" 
+            y="320" 
+            width="150" 
+            height="150" 
+            draggable="true" 
+            on-drop="restore" 
+            on-zone="lived" 
+            on-trigger="lived">
+      <lived x="-50"/></agent> 
+
+    
+    
+    <agent img='yellowbut.png'
+            x="0" 
+            y="328" 
+            width='129'
+            height='74'
+            on-touch='_GOTO_PAGE:11'/>
+  	
+    <agent img='backbut.png'
+            x="0" 
+            y="380" 
+            width='129'
+            height='74'
+            on-touch='_GOTO_PAGE:1'/>  
+    
+    
+    
+  </page>
+  
+  
+  <page background='PÁGINA(15).jpg'>
+  
+    <agent text='RETORNAR AO INÍCIO'
+      			x="15" 
+      			y="440" 
+      			width="300"
+      			font-size='10'
+      			color='midnightblue'></agent>
+    <agent img='readybut.png'
+      			x="0" 
+            y="0" 
+            width='129'
+            height='74'/>
+
+    
+    <agent img='loira5.png'
+            x="20" 
+            y="-28"
+            width="400" 
+            height="470"/>
+
+    <agent img='blackbut.png'
+            x="0" 
+            y="328" 
+            width='129'
+            height='74'
+            on-touch='restore'>
+      <restore img="morena5.png" 
+        				x="20" 
+      					y="0"
+        				width="420" 
+       					height="490"/></agent>  
+    
+    <agent img='backbut.png'
+            x="0" 
+            y="380" 
+            width='129'
+            height='74'
+            on-touch='_GOTO_PAGE:1'/>  
+
+  </page>
+  
+    
+  <page background='NOVAPÁGINA(16)-RUIVA5.jpg'>
+  	<agent text='não feita'
+      x='0'
+      y='0'
+      width='10'
+      height='10'/>
+  </page>
+  
+  
+  
 </fable>
