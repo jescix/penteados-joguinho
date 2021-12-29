@@ -773,7 +773,7 @@
   </page>
   
   
-  <page background='PÁGINA(17).png'>
+  <page background='PÁGINA(17).png' soundtrack='pronta.wav'>
      <agent img='Ready.png'
       			x="317" 
             y="377" 
@@ -796,7 +796,7 @@
   </page>
   
   
-  <page background='PÁGINA(18).png'>
+  <page background='PÁGINA(18).png' soundtrack='pronta.wav'>
     <agent img='Ready.png'
       			x="317" 
             y="377" 
@@ -819,7 +819,7 @@
   </page>
 
   
-  <page background='PÁGINA(19).png'>
+  <page background='PÁGINA(19).png' soundtrack='pronta.wav'>
     <agent img='Ready.png'
       			x="317" 
             y="377" 
@@ -842,7 +842,7 @@
   </page>
   
   
-  <page background='PÁGINA(20).png'>
+  <page background='PÁGINA(20).png' soundtrack='pronta.wav'>
     <agent img='Ready.png'
       			x="317" 
             y="377" 
@@ -865,7 +865,7 @@
   </page>
   
   
-  <page background='PÁGINA(21).png'>
+  <page background='PÁGINA(21).png' soundtrack='pronta.wav'>
     <agent img='Ready.png'
       			x="317" 
             y="377" 
@@ -888,7 +888,7 @@
   </page>
   
   
-  <page background='PÁGINA(22).png'>
+  <page background='PÁGINA(22).png' soundtrack='pronta.wav'>
     <agent img='Ready.png'
       			x="317" 
             y="377" 
@@ -911,7 +911,7 @@
   </page>
 
 
-  <page background='PÁGINA(23).png'>
+  <page background='PÁGINA(23).png' soundtrack='pronta.wav'>
     <agent img='Ready.png'
       			x="317" 
             y="377" 
@@ -932,7 +932,9 @@
             on-touch='_GOTO_PAGE:1'/> 
 
   </page>
-  <page background='PÁGINA(24).png'>
+  
+  
+  <page background='PÁGINA(24).png' soundtrack='pronta.wav'>
     <agent img='Ready.png'
       			x="317" 
             y="377" 
@@ -953,8 +955,9 @@
             on-touch='_GOTO_PAGE:1'/> 
 
   </page>
+  
 
-    <page background='PÁGINA(25).png'>
+  <page background='PÁGINA(25).png' soundtrack='pronta.wav'>
     <agent img='Ready.png'
       			x="317" 
             y="377" 
@@ -977,8 +980,7 @@
   </page>
 
   
-  
-	<page background='PÁGINA(26).png'>
+	<page background='PÁGINA(26).png' soundtrack='pronta.wav'>
     <agent img='Ready.png'
       			x="317" 
             y="377" 
@@ -999,8 +1001,9 @@
             on-touch='_GOTO_PAGE:1'/> 
 
   </page>
+  
 
-  <page background='PÁGINA(27).png'>
+  <page background='PÁGINA(27).png' soundtrack='pronta.wav'>
     <agent img='Ready.png'
       			x="317" 
             y="377" 
@@ -1021,7 +1024,9 @@
             on-touch='_GOTO_PAGE:1'/> 
 
   </page>
-  <page background='PÁGINA(28).png'>
+  
+  
+  <page background='PÁGINA(28).png' soundtrack='pronta.wav'>
     <agent img='Ready.png'
       			x="317" 
             y="377" 
@@ -1042,7 +1047,9 @@
             on-touch='_GOTO_PAGE:1'/> 
 
   </page>
-  <page background='PÁGINA(29).png'>
+  
+  
+  <page background='PÁGINA(29).png' soundtrack='pronta.wav'>
     <agent img='Ready.png'
       			x="317" 
             y="377" 
@@ -1063,7 +1070,9 @@
             on-touch='_GOTO_PAGE:1'/> 
 
   </page>
-  <page background='PÁGINA(30).png'>
+  
+  
+  <page background='PÁGINA(30).png' soundtrack='pronta.wav'>
     <agent img='Ready.png'
       			x="317" 
             y="377" 
@@ -1083,7 +1092,9 @@
             on-touch='_GOTO_PAGE:1'/> 
 
   </page>
-	<page background='PÁGINA(31).png'>
+  
+  
+	<page background='PÁGINA(31).png' soundtrack='pronta.wav'>
     <agent img='Ready.png'
       			x="317" 
             y="377" 
