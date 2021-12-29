@@ -1,5 +1,5 @@
 <fable>
-	<page background='PÁGINA(1).png'>   
+	<page background='PÁGINA(1).png' soundtrack='trilhapg1.wav'>   
 
     <agent video='MSGPG1.mp4'
       			x="0" 
@@ -95,7 +95,7 @@
   </page>
   
   
-  <page background='PÁGINA(2).png'>
+  <page background='PÁGINA(2).png' soundtrack='trilhapg1.wav'>
     <agent video='MSGPG2.mp4'
       			x="299" 
       			y="329" 
@@ -158,7 +158,7 @@
   </page>
   
   
-  <page background='PÁGINA(3).png'>
+  <page background='PÁGINA(3).png' soundtrack='trilhapg1.wav'>
     
     <agent img='loira1.png'
             x="40" 
@@ -196,7 +196,7 @@
 	</page>
   
   
-  <page background='PÁGINA(4).png'>
+  <page background='PÁGINA(4).png' soundtrack='trilhapg1.wav'>
     
     <agent img='ruiva1.png'
             x="60" 
@@ -231,7 +231,7 @@
   </page>
 
 
-  <page background='PÁGINA(5).png'>
+  <page background='PÁGINA(5).png' soundtrack='trilhapg1.wav'>
 
     <agent video='MSGPG2.mp4'
       			x="299" 
@@ -294,7 +294,7 @@
   </page>
   
   
-  <page background='PÁGINA(6).png'>
+  <page background='PÁGINA(6).png' soundtrack='trilhapg1.wav'>
 
     <agent img='loira2.png'
             x="55" 
@@ -331,7 +331,7 @@
   </page>
   
   
-  <page background='PÁGINA(7).png'>
+  <page background='PÁGINA(7).png' soundtrack='trilhapg1.wav'>
     <agent img='ruiva2.png'
             x="55" 
             y="0"
@@ -366,7 +366,7 @@
   </page>
   
 
-  <page background='PÁGINA(8).png'>
+  <page background='PÁGINA(8).png' soundtrack='trilhapg1.wav'>
     
     <agent video='MSGPG2.mp4'
       			x="299" 
@@ -428,7 +428,7 @@
   </page>
   
   
-  <page background='PÁGINA(9).png'>
+  <page background='PÁGINA(9).png' soundtrack='trilhapg1.wav'>
       
     <agent img='loira3.png'
             x="40" 
@@ -465,7 +465,7 @@
   </page>
   
   
-  <page background='PÁGINA(10).png'>
+  <page background='PÁGINA(10).png' soundtrack='trilhapg1.wav'>
   	<agent img='ruiva3.png'
             x="40" 
             y="-2"
@@ -499,7 +499,7 @@
   </page>
   
  
-  <page background='PÁGINA(11).png'>
+  <page background='PÁGINA(11).png' soundtrack='trilhapg1.wav'>
     
     <agent video='MSGPG2.mp4'
       			x="299" 
@@ -567,7 +567,7 @@
   </page>
   
   
-  <page background='PÁGINA(12).png'>
+  <page background='PÁGINA(12).png' soundtrack='trilhapg1.wav'>
     
     <agent img='loira4.png'
             x="90" 
@@ -603,7 +603,7 @@
   </page>
   
   
-  <page background='PÁGINA(13).png'>  		
+  <page background='PÁGINA(13).png' soundtrack='trilhapg1.wav'>  		
     <agent img='ruiva4.png'
             x="40" 
             y="-2"
@@ -637,7 +637,7 @@
   </page>
   
 
-  <page background='PÁGINA(14).png'>
+  <page background='PÁGINA(14).png' soundtrack='trilhapg1.wav'>
     
     <agent video='MSGPG2.mp4'
       			x="299" 
@@ -700,7 +700,7 @@
   </page>
   
   
-  <page background='PÁGINA(15).png'>
+  <page background='PÁGINA(15).png' soundtrack='trilhapg1.wav'>
 
     
     <agent img='loira5.png'
@@ -736,7 +736,7 @@
   </page>
   
     
-  <page background='PÁGINA(16).png'>
+  <page background='PÁGINA(16).png' soundtrack='trilhapg1.wav'>
     <agent img='ruiva5.png'
             x="90" 
             y="-46"
