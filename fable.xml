@@ -190,7 +190,8 @@
       			x="0" 
             y="230" 
             width='129'
-            height='74'/>
+            height='74'
+      			on-touch='_GOTO_PAGE:18'/>
       
 	</page>
   
@@ -225,7 +226,8 @@
       			x="0" 
             y="230" 
             width='129'
-            height='74'/>
+            height='74'
+      			on-touch='_GOTO_PAGE:19'/>
   </page>
 
 
@@ -286,7 +288,8 @@
       			x="0" 
             y="230" 
             width='129'
-            height='74'/>
+            height='74'
+      			on-touch='_GOTO_PAGE:20'/>
     
   </page>
   
@@ -322,7 +325,8 @@
       			x="0" 
             y="230" 
             width='129'
-            height='74'/>
+            height='74'
+      			on-touch='_GOTO_PAGE:21'/>
 
   </page>
   
@@ -356,7 +360,8 @@
       			x="0" 
             y="230" 
             width='129'
-            height='74'/>
+            height='74'
+            on-touch='_GOTO_PAGE:22'/>
     
   </page>
   
@@ -369,8 +374,6 @@
       			width="200"      			
       			height="200"/>
 
-
-    
     
     <agent img="careca.png" 
             x="-150" 
@@ -419,7 +422,8 @@
       			x="0" 
             y="230" 
             width='129'
-            height='74'/>
+            height='74'
+            on-touch='_GOTO_PAGE:23'/>
     
   </page>
   
@@ -454,7 +458,8 @@
       			x="0" 
             y="230" 
             width='129'
-            height='74'/>
+            height='74'
+            on-touch='_GOTO_PAGE:24'/>
       
 
   </page>
@@ -489,7 +494,8 @@
       			x="0" 
             y="230" 
             width='129'
-            height='74'/>
+            height='74'
+            on-touch='_GOTO_PAGE:25'/>
   </page>
   
  
@@ -556,7 +562,8 @@
       			x="0" 
             y="230" 
             width='129'
-            height='74'/>
+            height='74'
+            on-touch='_GOTO_PAGE:26'/>
   </page>
   
   
@@ -590,7 +597,8 @@
       			x="0" 
             y="230" 
             width='129'
-            height='74'/>
+            height='74'
+            on-touch='_GOTO_PAGE:27'/>
   
   </page>
   
@@ -624,7 +632,8 @@
       			x="0" 
             y="230" 
             width='129'
-            height='74'/>
+            height='74'
+            on-touch='_GOTO_PAGE:28'/>
   </page>
   
 
@@ -684,7 +693,8 @@
       			x="0" 
             y="230" 
             width='129'
-            height='74'/>
+            height='74'
+            on-touch='_GOTO_PAGE:29'/>
     
     
   </page>
@@ -721,7 +731,8 @@
       			x="0" 
             y="230" 
             width='129'
-            height='74'/>
+            height='74'
+            on-touch='_GOTO_PAGE:30'/>
   </page>
   
     
@@ -754,7 +765,8 @@
       			x="0" 
             y="230" 
             width='129'
-            height='74'/>
+            height='74'
+            on-touch='_GOTO_PAGE:31'/>
 
     
     
@@ -782,6 +794,315 @@
             on-touch='_GOTO_PAGE:1'/> 
 
   </page>
+  
+  
+  <page background='PÁGINA(18).png'>
+    <agent img='Ready.png'
+      			x="317" 
+            y="377" 
+            width='182'
+            height='108'></agent>   
+    
+    <agent img='loira1.png'
+            x="40" 
+            y="0"
+            width="400" 
+            height="450"/>
 
+    <agent img='backbut.png'
+            x="0" 
+            y="377" 
+            width='129'
+            height='74'
+            on-touch='_GOTO_PAGE:1'/> 
+
+  </page>
+
+  
+  <page background='PÁGINA(19).png'>
+    <agent img='Ready.png'
+      			x="317" 
+            y="377" 
+            width='182'
+            height='108'></agent>   
+    
+    <agent img='ruiva1.png'
+            x="60" 
+            y="-2"
+            width="400" 
+            height="450"/>
+
+    <agent img='backbut.png'
+            x="0" 
+            y="377" 
+            width='129'
+            height='74'
+            on-touch='_GOTO_PAGE:1'/> 
+
+  </page>
+  
+  
+  <page background='PÁGINA(20).png'>
+    <agent img='Ready.png'
+      			x="317" 
+            y="377" 
+            width='182'
+            height='108'></agent>   
+    
+    <agent img="morena2.png" 
+            x="20" 
+           	y="0"
+            width="400" 
+            height="470"/>
+
+    <agent img='backbut.png'
+            x="0" 
+            y="377" 
+            width='129'
+            height='74'
+            on-touch='_GOTO_PAGE:1'/> 
+
+  </page>
+  
+  
+  <page background='PÁGINA(21).png'>
+    <agent img='Ready.png'
+      			x="317" 
+            y="377" 
+            width='182'
+            height='108'></agent>   
+    
+    <agent img='loira2.png'
+            x="12" 
+            y="0"
+            width="400" 
+            height="470"/>
+
+    <agent img='backbut.png'
+            x="0" 
+            y="377" 
+            width='129'
+            height='74'
+            on-touch='_GOTO_PAGE:1'/> 
+
+  </page>
+  
+  
+  <page background='PÁGINA(22).png'>
+    <agent img='Ready.png'
+      			x="317" 
+            y="377" 
+            width='182'
+            height='108'></agent>   
+    
+    <agent img='ruiva2.png'
+            x="25" 
+            y="0"
+            width="400" 
+            height="450"/>
+
+    <agent img='backbut.png'
+            x="0" 
+            y="377" 
+            width='129'
+            height='74'
+            on-touch='_GOTO_PAGE:1'/> 
+
+  </page>
+
+
+  <page background='PÁGINA(23).png'>
+    <agent img='Ready.png'
+      			x="317" 
+            y="377" 
+            width='182'
+            height='108'></agent>   
+    
+    <agent img="morena3.png" 
+            x="20" 
+            y="0"
+            width="400" 
+            height="460"/>
+
+    <agent img='backbut.png'
+            x="0" 
+            y="377" 
+            width='129'
+            height='74'
+            on-touch='_GOTO_PAGE:1'/> 
+
+  </page>
+  <page background='PÁGINA(24).png'>
+    <agent img='Ready.png'
+      			x="317" 
+            y="377" 
+            width='182'
+            height='108'></agent>   
+    
+    <agent img='loira3.png'
+            x="40" 
+            y="0"
+            width="400" 
+            height="450"/>
+
+    <agent img='backbut.png'
+            x="0" 
+            y="377" 
+            width='129'
+            height='74'
+            on-touch='_GOTO_PAGE:1'/> 
+
+  </page>
+
+    <page background='PÁGINA(25).png'>
+    <agent img='Ready.png'
+      			x="317" 
+            y="377" 
+            width='182'
+            height='108'></agent>   
+    
+  	<agent img='ruiva3.png'
+            x="40" 
+            y="-2"
+            width="400" 
+            height="450"/>
+
+    <agent img='backbut.png'
+            x="0" 
+            y="377" 
+            width='129'
+            height='74'
+            on-touch='_GOTO_PAGE:1'/> 
+
+  </page>
+
+  
+  
+	<page background='PÁGINA(26).png'>
+    <agent img='Ready.png'
+      			x="317" 
+            y="377" 
+            width='182'
+            height='108'></agent>   
+    
+  	<agent img="morena4.png" 
+                x="40" 
+                y="-20"
+                width="400" 
+                height="480"/>
+
+    <agent img='backbut.png'
+            x="0" 
+            y="377" 
+            width='129'
+            height='74'
+            on-touch='_GOTO_PAGE:1'/> 
+
+  </page>
+
+  <page background='PÁGINA(27).png'>
+    <agent img='Ready.png'
+      			x="317" 
+            y="377" 
+            width='182'
+            height='108'></agent>   
+    
+    <agent img='loira4.png'
+            x="90" 
+            y="-46"
+            width="329" 
+            height="509"/>
+
+    <agent img='backbut.png'
+            x="0" 
+            y="377" 
+            width='129'
+            height='74'
+            on-touch='_GOTO_PAGE:1'/> 
+
+  </page>
+  <page background='PÁGINA(28).png'>
+    <agent img='Ready.png'
+      			x="317" 
+            y="377" 
+            width='182'
+            height='108'></agent>   
+    
+    <agent img='ruiva4.png'
+            x="40" 
+            y="-2"
+            width="400" 
+            height="450"/> 
+
+    <agent img='backbut.png'
+            x="0" 
+            y="377" 
+            width='129'
+            height='74'
+            on-touch='_GOTO_PAGE:1'/> 
+
+  </page>
+  <page background='PÁGINA(29).png'>
+    <agent img='Ready.png'
+      			x="317" 
+            y="377" 
+            width='182'
+            height='108'></agent>   
+    
+    <agent img="morena5.png" 
+            x="40" 
+            y="0"
+            width="400" 
+            height="497"/>
+
+    <agent img='backbut.png'
+            x="0" 
+            y="377" 
+            width='129'
+            height='74'
+            on-touch='_GOTO_PAGE:1'/> 
+
+  </page>
+  <page background='PÁGINA(30).png'>
+    <agent img='Ready.png'
+      			x="317" 
+            y="377" 
+            width='182'
+            height='108'></agent>   
+    <agent img='loira5.png'
+            x="20" 
+            y="-28"
+            width="400" 
+            height="470"/>
+
+    <agent img='backbut.png'
+            x="0" 
+            y="377" 
+            width='129'
+            height='74'
+            on-touch='_GOTO_PAGE:1'/> 
+
+  </page>
+	<page background='PÁGINA(31).png'>
+    <agent img='Ready.png'
+      			x="317" 
+            y="377" 
+            width='182'
+            height='108'></agent>   
+    <agent img='ruiva5.png'
+            x="90" 
+            y="-46"
+            width="329" 
+            height="509"/>
+
+    <agent img='backbut.png'
+            x="0" 
+            y="377" 
+            width='129'
+            height='74'
+            on-touch='_GOTO_PAGE:1'/> 
+
+  </page>
+  
   
 </fable>
